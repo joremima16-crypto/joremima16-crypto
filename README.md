@@ -19,11 +19,11 @@ I build embedded systems that make real-time decisions under real-world constrai
 
 ## Tech Stack
 
-**Languages:** C, C++, Embedded C, Python, Shell/Bash
-**Embedded / Firmware:** Bare-metal & register-level programming, memory-mapped I/O, interrupt handling (ISR), NVIC, linker scripts, fixed-point (Q15), FreeRTOS (tasks, queues, semaphores)
-**Protocols:** UART, SPI, I2C, GPIO, CAN 2.0B, MQTT
-**ML / Edge:** scikit-learn (Random Forest, probability calibration), TinyML, TensorFlow Lite, model quantization
-**Tools:** arm-none-eabi-gcc, Make, QEMU, Git, NumPy, Pandas, PyTorch
+- **Languages:** C, C++, Embedded C, Python, Shell/Bash
+- **Embedded / Firmware:** Bare-metal & register-level programming, memory-mapped I/O, interrupt handling (ISR), NVIC, linker scripts, fixed-point (Q15), FreeRTOS (tasks, queues, semaphores)
+- **Protocols:** UART, SPI, I2C, GPIO, CAN 2.0B, MQTT
+- **ML / Edge:** scikit-learn (Random Forest, probability calibration), TinyML, TensorFlow Lite, model quantization
+- **Tools:** arm-none-eabi-gcc, Make, QEMU, Git, NumPy, Pandas, PyTorch
 
 ---
 
@@ -38,7 +38,7 @@ An ESP32-based two-tier on-device decision system for real-time LoRa/BLE protoco
 - Accuracy measured honestly under realistic conditions: 91.6% on clean synthetic data → 68.7% with injected sensor noise and multipath fading; derived a calibrated confidence threshold (α = 0.65) for protocol switching
 - Simulated a ~22% reduction in transmit energy and airtime relative to an all-LoRa baseline, using datasheet-derived radio parameters
 
-*(Not in a public repository — happy to walk through the details on request.)*
+*(Not a standalone repository — full specification publicly viewable on the [India Patent Office's InPASS portal](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus): search Application No. 202641010901.)* <!-- once you've pulled the published spec PDF from the portal, consider hosting it directly in this repo and linking that instead — the portal search itself isn't a stable deep link -->
 
 ### [Bare-Metal STM32F405 Peripheral Drivers](https://github.com/mrkjosp/stm32-baremetal-drivers)
 
