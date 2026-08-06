@@ -48,6 +48,9 @@ GPIO, UART, SPI, and I2C drivers for the STM32F405 (ARM Cortex-M4), written dire
 - Direct register access, custom RCC clock configuration, hand-written linker script and startup code (vector table, `.data` init, `.bss` zeroing)
 - SPI and I2C transaction sequences — including I2C repeated-start reads — validated against the reference manual
 
+<!-- optional: embed a terminal-recording GIF here of the QEMU UART echo test (ISR -> ring buffer -> main loop). Tools: vhs (charmbracelet) or asciinema + agg. Real evidence > decorative animation. -->
+
+
 ### [Embedded Fault Detection System with SCADA Monitoring](https://github.com/mrkjosp/scada-fault_detection)
 
 A three-task FreeRTOS pipeline on ESP32 for industrial machine-health monitoring.
@@ -58,10 +61,16 @@ A three-task FreeRTOS pipeline on ESP32 for industrial machine-health monitoring
 
 ---
 
-## Research
+## Experience
 
 **Research Intern — Indian Institute of Technology (BHU), Varanasi** (Dec 2025 – Jan 2026)
 UAV-based edge computing prototype under a Federated Learning framework. Profiled and optimized a CNN inference pipeline on a Raspberry Pi 4, reducing peak memory footprint to ≤512 MB via INT8 quantization. Designed a Python-based greedy matching algorithm for constrained assignment problems across distributed compute nodes.
+
+---
+
+## Patents & Publications
+
+**Patent (pending):** Indian Patent Office Application No. 202641010901 — "Machine Learning-Driven Hybrid Mesh Switching Communication System for an IoT Device and Method Thereof," co-inventor; filed by Manipal Academy of Higher Education; published April 2026, pending examination.
 
 **Paper:** *ML-Driven Hybrid Mesh Switching for Coverage-Aware IoT Applications* <!-- add venue / status once finalized -->
 
